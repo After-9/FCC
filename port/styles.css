@@ -87,10 +87,12 @@ body {
     padding: 0;
 }
 .navitem a{
-    color: #7C3000;
+    color: #d8226e;
     text-decoration: none;
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: bolder;
+    border-left: solid 2px black;
+    padding: 0.1em;
 }
 
 .navitem a:hover {
@@ -162,7 +164,7 @@ figcaption {
 
 #profile {
     margin-top: 1em;
-    background-color: #386C5F;
+    background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     font-size: 2em;
     text-align: center;
     font-weight: 500;
@@ -170,7 +172,11 @@ figcaption {
 #profile p {
     overflow: hidden;
     margin-bottom: 1em;
-    border-bottom: solid 1px #C492FF;
+    border-bottom: solid 1px #3b2158;
+    color: rgb(255, 255, 255);
+}
+#profile h1 {
+    color: yellow;
 }
 
 footer{
